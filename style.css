@@ -130,15 +130,15 @@ audio {
 }
 
 @media only screen and (max-width: 600px) {
+   body {
+      padding: 2rem;
+   }
    .wishes h2 {
-      font-size: 3rem;
+      font-size: 2.5rem;
    }
    p {
       width: 22rem;
       margin: 0 auto;
       font-size: 1.54rem;
-   }
-   .prome {
-      max-height: 80%;
    }
 }

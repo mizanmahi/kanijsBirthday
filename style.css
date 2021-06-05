@@ -141,4 +141,8 @@ audio {
       margin: 0 auto;
       font-size: 1.54rem;
    }
+
+   img {
+      max-width: 60%;
+   }
 }

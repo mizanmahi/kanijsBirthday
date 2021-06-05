@@ -65,7 +65,7 @@ body {
 .prome {
    max-height: 60%;
    animation-name: blurEffect;
-   animation-duration: 10s;
+   animation-duration: 15s;
 }
 img {
    max-width: 80%;
@@ -134,7 +134,7 @@ audio {
       font-size: 3rem;
    }
    p {
-      width: 30rem;
+      width: 25rem;
       margin: 0 auto;
       font-size: 1.54rem;
    }

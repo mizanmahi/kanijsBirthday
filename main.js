@@ -29,7 +29,7 @@ const aud = document.getElementById("audio");
 
 // // startConfetti();
 
-// aud.play();
+aud.play();
 toggleConfetti();
 let can = document.querySelector("canvas");
 can.style.position = "absolute";

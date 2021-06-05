@@ -113,7 +113,7 @@ button:active {
 }
 
 audio {
-   display: none;
+   visibility: hidden;
 }
 
 @keyframes blurEffect {
@@ -134,7 +134,7 @@ audio {
       font-size: 3rem;
    }
    p {
-      width: 25rem;
+      width: 22rem;
       margin: 0 auto;
       font-size: 1.54rem;
    }

@@ -1,10 +1,26 @@
-const aud = document.getElementById("audio");
+const button = document.querySelector("button");
+const aud = document.querySelector("audio");
+button.addEventListener("click", () => {
+   if (aud.currentTime === 0) {
+      aud.play();
+      return;
+   }
+   aud.pause();
+   aud.currentTime = 0;
+});
+
+startConfetti();
+let can = document.querySelector("canvas");
+can.style.position = "absolute";
+can.style.top = "0px";
+can.style.left = "0px";
+
 // const button = document.querySelector("button");
 // const prome = document.querySelector(".prome");
 // console.log(prome);
 
 // button.addEventListener("click", () => {
-  
+
 //    prome.style.opacity = 1;
 //    prome.animate(
 //       [
@@ -27,11 +43,4 @@ const aud = document.getElementById("audio");
 //    aud.currentTime = 0;
 // });
 
-// // startConfetti();
-
-aud.play();
-toggleConfetti();
-let can = document.querySelector("canvas");
-can.style.position = "absolute";
-can.style.top = "0px";
-can.style.left = "0px";
+// //
